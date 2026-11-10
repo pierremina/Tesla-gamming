@@ -1,0 +1,529 @@
+body{
+background-color: rgb(33, 33, 33);
+overflow-x: hidden;
+}
+.navbar{
+display: flex;
+align-items: center;
+width: 100%;
+}
+.navbar h2{
+color: rgb(227, 93, 139);
+margin-left: 20px;
+}
+.navbar h2 i{
+font-size: 130;
+color: rgb(227, 93, 139);
+
+}
+.navbar .links{
+display: flex;
+margin-left: 600px;
+}
+.links a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(74, 79, 80);
+    font-family: cursive;
+    font-size: 20px;
+    transition: 1s;
+}
+.links a:hover:not(.profile){
+color:rgb(212, 84, 151) ;
+
+}
+.links .home a{
+color:rgb(212, 84, 151) ;
+}
+.search{
+background-color: rgb(53, 51, 51);
+margin-left: 50px;
+height: 40px;
+width: 160px;
+border-radius: 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+    color: rgb(74, 79, 80);
+
+}
+.profile{
+width: 160px;
+height: 60px;
+background-color:rgb(53, 51, 51) ;
+border-radius: 50px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+transition: 1s;
+    color: rgb(74, 79, 80);
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.profile:hover{
+background-color:rgb(212, 84, 151) ;
+color:rgb(74, 79, 80) ;
+}
+.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    background-color: rgb(39, 39, 39);
+    margin-top: 60px;
+
+}
+.container .banner img{
+/* width: 1100px; */
+height: 400px;
+margin-bottom: 160px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+background-color:rgb(53, 51, 51) ;
+    width: 100%;
+
+    border-radius: 30px;
+background-image: url(../images/banner-bg.jpg);
+height: 400px;
+background-size: cover;
+}
+.banner .p{
+display: flex;
+justify-content: left;
+ position: relative;
+right: 550px;
+bottom: 130px;
+margin-left: 100px;
+flex-direction: column;
+}
+.p p{
+color: white;
+font-size: 30px;
+font-weight: 900;
+margin-top: 200px;
+}
+h1{
+color:rgb(212, 84, 151) ;
+margin-left: 50px;
+}
+.p button{
+background-color: rgb(212, 84, 151);
+border: none;
+width: 120px;
+height: 40px;
+border-radius:20px ;
+color: white;
+margin-left:100px ;
+margin-top: 30px;
+}
+.games:not(.h3){
+background-color: rgb(34, 34, 34);
+width: 90%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+flex-direction: column;
+margin-top: 70px;
+border-radius: 30px;
+}
+.games h3{
+color: white;
+text-decoration: underline;
+display: flex;
+align-items: center;
+column-gap: 10px;
+margin-left: 20px;
+}
+.games h3 p{
+color: rgb(212, 84, 158);
+}
+.fortnite{
+width: 270px;
+height: 275px;
+background-color:rgb(39, 39, 39);
+border-radius: 20px;
+}
+.fortnite img{
+width:250px ;
+height: 120px;
+border-radius: 15px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.talk{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.talk p:not(.ph5 p){
+color: white;
+}
+.talk .ph5{
+display: flex;
+flex-direction: column;
+}
+.talk .star .str i{
+color: yellow;
+}
+.talk .star .down i{
+color: rgb(212, 84, 158);
+}
+.talk .ph5 h5{
+color: white;
+}
+.talk .ph5 p{
+color: gray;
+
+}
+p{
+font-family: cursive;
+}
+.fortnite button{
+background-color: blueviolet;
+border: none; 
+border-radius: 10px;
+margin-left: 20px;
+}
+
+.d-up{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+.d-down{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+.container .button{
+background-color: rgb(212, 84, 151);
+border: none;
+padding: 10px;
+color: white;
+border-radius: 20px;
+width: 130px;
+height: 40px;
+margin: 30px auto;
+margin-left: 20px;
+}
+.library{
+background-color:rgb(34, 34, 34) ;
+display: flex;
+margin: auto;
+flex-direction: column;
+width: 90%;
+border-radius: 30px;
+}
+.library h4{
+color: white;
+text-decoration: underline;
+display: flex;
+align-items: center;
+column-gap: 10px;
+margin: 20px;
+}
+.library h4 p{
+color:rgb(212, 84, 151) ;
+}
+.library img{
+width: 70px;
+height: 70px;
+border-radius: 20px;
+}
+.library .playds {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.library .dota h5{
+color: white;
+font-weight: bolder;
+}
+.library .dota p{
+color: gray;
+}
+.library button{
+width: 100px;
+height: 20px;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+border: solid rgb(212, 84, 151) 2px;
+background-color: transparent;
+color: rgb(212, 84, 151);
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner .p {
+    position: static !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin: 0 !important;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.banner .p p {
+    margin-top: 0 !important;
+}
+
+.p h1 {
+    margin-left: 0 !important;
+}
+
+.p button {
+    margin-left: 0 !important;
+}
+
+.links a i {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .navbar .links {
+        margin-left: 0;
+    }
+
+    .d-up, .d-down {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .fortnite {
+        width: 220px;
+    }
+
+    .fortnite img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .search {
+        margin-left: 15px;
+        width: 130px;
+    }
+
+    .links a {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .profile {
+        width: 120px;
+        height: 45px;
+    }
+
+    .banner {
+        height: auto;
+        min-height: 320px;
+    }
+
+    .banner .p p {
+        font-size: 24px;
+    }
+
+    .p h1 {
+        font-size: 28px;
+    }
+
+    .library .playds {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px;
+        border-bottom: 1px solid #333;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-bottom: 70px;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #1a1a1a;
+        padding: 10px 15px;
+        justify-content: space-between;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar h2 {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .search {
+        margin-left: 0;
+        width: 140px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .navbar .links {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #181818;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 9999;
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .links a {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #8e8e93;
+        font-size: 10px;
+        text-decoration: none;
+        flex: 1;
+        height: 100%;
+    }
+
+    .links a i {
+        display: block !important;
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+
+    .links a span {
+        display: none;
+    }
+
+    .links a.active, 
+    .links a:hover {
+        color: rgb(212, 84, 151);
+    }
+
+    .links .profile-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile {
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border-radius: 0;
+        flex-direction: column;
+    }
+
+    .profile img {
+        width: 26px;
+        height: 26px;
+        margin-left: 0;
+        border: 2px solid rgb(212, 84, 151);
+    }
+
+    .profile span {
+        display: none;
+    }
+
+    .d-up, .d-down {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .fortnite {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .fortnite img {
+        width: calc(100% - 20px);
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .library .playds {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .library .playds img {
+        grid-column: span 2;
+    }
+
+    .library button {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 380px) {
+    .navbar h2 {
+        font-size: 16px;
+    }
+
+    .search {
+        width: 110px;
+        font-size: 11px;
+    }
+
+    .banner .p p {
+        font-size: 18px;
+    }
+
+    .p h1 {
+        font-size: 22px;
+    }
+
+    .links a i {
+        font-size: 18px;
+    }
+}

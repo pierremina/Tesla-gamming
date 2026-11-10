@@ -1,0 +1,509 @@
+body{
+background-color: rgb(33, 33, 33);
+overflow-x: hidden;
+}
+.navbar{
+display: flex;
+align-items: center;
+width: 100%;
+}
+.navbar h2{
+color: rgb(227, 93, 139);
+margin-left: 20px;
+}
+.navbar h2 i{
+font-size: 130;
+color: rgb(227, 93, 139);
+
+}
+.navbar .links{
+display: flex;
+margin-left: 600px;
+}
+.links a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(74, 79, 80);
+    font-family: cursive;
+    font-size: 20px;
+    transition: 1s;
+}
+.links a:hover:not(.profile){
+color:rgb(212, 84, 151) ;
+
+}
+.links .home a{
+color:rgb(212, 84, 151) ;
+}
+.search{
+background-color: rgb(53, 51, 51);
+margin-left: 50px;
+height: 40px;
+width: 160px;
+border-radius: 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+    color: rgb(74, 79, 80);
+
+}
+.profile{
+width: 160px;
+height: 60px;
+background-color:rgb(53, 51, 51) ;
+border-radius: 50px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+transition: 1s;
+    color: rgb(74, 79, 80);
+}
+.profile p{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.profile:hover{
+background-color:rgb(212, 84, 151) ;
+color:rgb(74, 79, 80) ;
+}
+.container{
+background-color: rgb(45, 44, 44);
+width: 90%;
+border-radius: 30px;
+margin: auto;
+margin-top: 100px;
+}
+.d-prof{
+background-color: rgb(35, 35, 35);
+display: flex;
+justify-content: space-around;
+margin: auto;
+margin-top: 60px;
+width: 90%;
+margin: auto;
+border-radius: 20px;
+}
+.d-prof img{
+border-radius: 20px;
+width: 280px;
+height: 280px;
+margin-top: 30px;
+margin-left: 30px;
+margin-bottom: 20px;
+}
+.off{
+margin: auto;
+}
+.ap-data{
+margin-right: 60px;
+}
+.off .ofl{
+border: none;
+border: solid rgb(247, 27, 144) 2px;
+color: rgb(247, 27, 144);
+border-radius: 25px;
+padding: 10px;
+background-color: transparent;
+width: 100px;
+}
+.off .str{
+border: none;
+border: solid rgb(247, 27, 144) 2px;
+color: rgb(247, 27, 144);
+border-radius: 25px;
+padding: 10px;
+background-color: transparent;
+width: 130px;
+}
+.off h2{
+color: white;
+font-family:"carter one" ;
+}
+.off p{
+color: gray;
+font-family: cursive;
+}
+.ap-data{
+background-color: rgb(45, 44, 44);
+width: 220px;
+height: 280px;
+margin: auto;
+border-radius: 20px;
+}
+
+.da{
+display: flex;
+justify-content: space-around;
+text-align: center;
+align-items: center;
+border-bottom: solid 2px rgb(247, 27, 144);
+column-gap: 30px;
+}
+.da p:not(.p1){
+color: rgb(247, 27, 144);
+}
+.da .p1{
+color: rgb(81, 81, 81);
+font-family: cursive;
+}
+.da1{
+display: flex;
+justify-content: space-around;
+text-align: center;
+align-items: center;
+/* border-bottom: solid 2px rgb(247, 27, 144); */
+column-gap: 30px;
+}
+.da1 p:not(.p1){
+color: rgb(247, 27, 144);
+}
+.da1 .p1{
+color: rgb(81, 81, 81);
+font-family: cursive;
+}
+.clips h3{
+color: white;
+text-decoration: underline;
+display: flex;
+align-items: center;
+column-gap: 10px;
+margin-left: 20px;
+}
+.clips h3 p{
+color: rgb(247, 27, 144);
+}
+.clips{
+
+    background-color: rgb(35, 35, 35);
+    width: 90%;
+    border-radius: 30px;
+    margin: auto;
+}
+.games4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.game{
+    margin-left: 20px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+.game img{
+border-radius: 20px;
+padding: 10px;
+
+}
+.h5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.game p{
+color: white;
+}
+.game p i{
+color: rgb(247, 27, 144);
+
+}
+.h5 h4{
+color: white;
+}
+.library{
+background-color:rgb(34, 34, 34) ;
+display: flex;
+margin: auto;
+flex-direction: column;
+width: 90%;
+border-radius: 30px;
+}
+.library h4{
+color: white;
+text-decoration: underline;
+display: flex;
+align-items: center;
+column-gap: 10px;
+margin: 20px;
+}
+.library h4 p{
+color:rgb(212, 84, 151) ;
+}
+.library img{
+width: 70px;
+height: 70px;
+border-radius: 20px;
+}
+.library .playds {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.library .dota h5{
+color: white;
+font-weight: bolder;
+}
+.library .dota p{
+color: gray;
+}
+.library button{
+width: 100px;
+height: 20px;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+border: solid rgb(212, 84, 151) 2px;
+background-color: transparent;
+color: rgb(212, 84, 151);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.links a i {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .project {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .navbar .links {
+        margin-left: 200px;
+    }
+
+    .d-prof {
+        width: 95%;
+    }
+
+    .games4 {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navbar .links {
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .d-prof {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ap-data {
+        margin: 20px auto;
+        margin-right: auto;
+    }
+
+    .library .playds {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px;
+        border-bottom: 1px solid #333;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-bottom: 70px;
+    }
+
+    .project {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 15px;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: rgb(33, 33, 33);
+        padding: 10px 0 15px 0;
+        justify-content: space-between;
+    }
+
+    .search {
+        width: 140px;
+    }
+
+    .navbar .links {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(24, 24, 24);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 9999;
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .links a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(74, 79, 80);
+        font-size: 10px;
+        text-decoration: none;
+        flex: 1;
+        height: 100%;
+        margin-right: 0;
+    }
+
+    .links a i {
+        display: block !important;
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+
+    .links a span {
+        display: none;
+    }
+
+    .links a:hover, 
+    .links .home a {
+        color: rgb(212, 84, 151);
+    }
+
+    .profile {
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+
+    .profile p {
+        display: none;
+    }
+
+    .profile img {
+        display: none;
+    }
+
+    .profile a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(74, 79, 80);
+        font-size: 10px;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .profile a i {
+        display: block !important;
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+
+    .profile a span {
+        display: none;
+    }
+
+    .d-prof {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-prof img {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto;
+    }
+
+    .ap-data {
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    .games4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .game img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+
+    .library .playds {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .library .playds img {
+        grid-column: span 2;
+    }
+
+    .library button {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 380px) {
+    .navbar h2 {
+        font-size: 16px;
+    }
+
+    .search {
+        width: 110px;
+        font-size: 11px;
+    }
+
+    .links a i {
+        font-size: 18px;
+    }
+}

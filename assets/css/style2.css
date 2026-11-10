@@ -1,0 +1,694 @@
+/* body{
+background-color: rgb(33, 33, 33);
+overflow-x: hidden;
+}
+.container{
+background-color: rgb(39, 39, 39);
+margin: auto;
+width: 90%;
+}
+p{
+font-family: cursive;
+}
+.navbar{
+display: flex;
+align-items: center;
+width: 100%;
+}
+.navbar h2{
+color: rgb(227, 93, 139);
+margin-left: 20px;
+}
+.navbar h2 i{
+font-size: 130;
+color: rgb(227, 93, 139);
+
+}
+.navbar .links{
+display: flex;
+margin-left: 600px;
+}
+.links a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(74, 79, 80);
+    font-family: cursive;
+    font-size: 20px;
+    transition: 1s;
+}
+.links a:hover{
+color:rgb(212, 84, 151) ;
+
+}
+.links .home a{
+color:rgb(212, 84, 151) ;
+}
+.search{
+background-color: rgb(53, 51, 51);
+margin-left: 50px;
+height: 40px;
+width: 160px;
+border-radius: 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+    color: rgb(74, 79, 80);
+
+}
+.profile{
+width: 160px;
+height: 60px;
+background-color:rgb(53, 51, 51) ;
+border-radius: 50px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+transition: 1s;
+    color: rgb(74, 79, 80);
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.profile:hover{
+background-color:rgb(212, 84, 151) ;
+}
+.img2{
+width: 430px;
+height: 70px;
+background-color: rgb(34, 34, 34);
+}
+.img2 h3{
+display: flex;
+align-items: center;
+color: white;
+column-gap: 10px;
+text-decoration: underline;
+}
+.img2 h3 p{
+color: rgb(212, 84, 151);
+}
+.img2 .imgs img{
+width: 70px;
+/* height: 170px; */
+ 
+
+
+body {
+    background-color: rgb(20, 22, 27);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.project {
+    width: 85%;
+    margin: 25px auto;
+    background-color: rgb(27, 29, 35);
+    border-radius: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(38, 41, 49);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1px;
+}
+
+.logo i {
+    color: rgb(227, 93, 139);
+    font-size: 26px;
+}
+
+.search {
+    background-color: rgb(35, 38, 46);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 40px;
+    border-radius: 20px;
+    width: 220px;
+    gap: 10px;
+    color: rgb(120, 120, 120);
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    font-size: 13px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.links a:hover, .links a.active:not(.profile) {
+    color: rgb(227, 93, 139);
+}
+
+.profile {
+    background-color: rgb(35, 38, 46);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px 5px 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    transition: 1s;
+}
+.profile:hover{
+background-color: rgb(227, 93, 139);
+color:rgb(74, 79, 80) ;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Main Grid (Featured & Top Downloaded) */
+.main-grid {
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.featured-games {
+    flex: 1.6;
+    background-color: rgb(35, 38, 46);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.featured-games h2, .top-downloaded h2, .live-stream-section h2, .popular-streams-section h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.featured-games h2 span, .top-downloaded h2 span, .live-stream-section h2 span, .popular-streams-section h2 span {
+    color: rgb(227, 93, 139);
+}
+
+.games-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.f-game-card {
+    flex: 1;
+    background-color: rgb(27, 29, 35);
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.f-game-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.game-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+
+.game-details .g-name {
+    color: white;
+    font-weight: bold;
+}
+
+.game-stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.game-stats .stars {
+    color: rgb(255, 193, 7);
+}
+
+.game-stats .downloads-count {
+    color: rgb(227, 93, 139);
+}
+
+/* Top Downloaded */
+.top-downloaded {
+    flex: 1;
+    background-color: rgb(35, 38, 46);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.download-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.download-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(45, 49, 58);
+    padding-bottom: 15px;
+}
+
+.download-item img {
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.d-info {
+    flex: 1;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.d-info h4 {
+    margin: 0;
+    font-size: 15px;
+    color: white;
+}
+
+.d-info p {
+    margin: 0;
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+}
+
+.d-stats {
+    font-size: 11px;
+    color: rgb(150, 150, 150);
+}
+
+.d-stats .fa-star {
+    color: rgb(255, 193, 7);
+}
+
+.d-stats .fa-download {
+    color: rgb(227, 93, 139);
+}
+
+.download-icon {
+    background-color: rgb(27, 29, 35);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(227, 93, 139);
+}
+
+.view-all {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(227, 93, 139);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Live Stream Section */
+.live-stream-section {
+    background-color: rgb(35, 38, 46);
+    margin-top: 35px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.steps-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.step-box {
+    flex: 1;
+    background-color: rgb(27, 29, 35);
+    padding: 30px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.step-icon {
+    background-color: rgb(35, 38, 46);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(227, 93, 139);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.step-box h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: white;
+}
+
+.step-box p {
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.profile-btn, .discover-streams-btn {
+    background-color: rgb(227, 93, 139);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Popular Streams Section */
+.popular-streams-section {
+    background-color: rgb(35, 38, 46);
+    margin-top: 35px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.streams-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.stream-card {
+    flex: 1;
+    background-color: rgb(27, 29, 35);
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stream-thumb {
+    width: 100%;
+    height: 140px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.streamer-details {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+}
+
+.streamer-details img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.streamer-details h4 {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.streamer-details h4 .fa-circle-check {
+    color: rgb(227, 93, 139);
+    font-size: 12px;
+}
+
+.streamer-details p {
+    margin: 3px 0 0 0;
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(150, 150, 150);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.links a i {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .project {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .main-grid {
+        flex-direction: column;
+    }
+
+    .games-cards {
+        flex-wrap: wrap;
+    }
+
+    .f-game-card {
+        min-width: 220px;
+    }
+
+    .streams-grid {
+        flex-wrap: wrap;
+    }
+
+    .stream-card {
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .links {
+        gap: 20px;
+    }
+
+    .steps-container {
+        flex-direction: column;
+    }
+
+    .f-game-card img {
+        height: 150px;
+    }
+
+    .stream-thumb {
+        height: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-bottom: 70px;
+    }
+
+    .project {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 15px;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: rgb(27, 29, 35);
+        padding: 10px 0 15px 0;
+        justify-content: space-between;
+    }
+
+    .search {
+        width: 140px;
+    }
+
+    .links {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(20, 22, 27);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 9999;
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .links a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(150, 150, 150);
+        font-size: 10px;
+        text-decoration: none;
+        flex: 1;
+        height: 100%;
+    }
+
+    .links a i {
+        display: block !important;
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+
+    .links a span {
+        display: none;
+    }
+
+    .profile {
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profile img {
+        width: 26px;
+        height: 26px;
+        border: 2px solid rgb(227, 93, 139);
+    }
+
+    .profile a p {
+        display: none;
+    }
+
+    .games-cards {
+        flex-direction: column;
+    }
+
+    .f-game-card {
+        width: 100%;
+    }
+
+    .streams-grid {
+        flex-direction: column;
+    }
+
+    .stream-card {
+        width: 100%;
+    }
+
+    .download-item {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .featured-games, .top-downloaded, .live-stream-section, .popular-streams-section {
+        padding: 20px 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .search {
+        width: 110px;
+    }
+
+    .featured-games h2, .top-downloaded h2, .live-stream-section h2, .popular-streams-section h2 {
+        font-size: 18px;
+    }
+
+    .links a i {
+        font-size: 18px;
+    }
+}
